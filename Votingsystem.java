@@ -6,8 +6,6 @@ public class VotingSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Map<String, Integer> candidates = new HashMap<>();
-        
-        // Gather candidate details
         System.out.println("Enter the number of candidates:");
         int numCandidates = input.nextInt();
         input.nextLine(); // consume newline
@@ -17,8 +15,6 @@ public class VotingSystem {
             String candidateName = input.nextLine();
             candidates.put(candidateName, 0); // initialize votes to 0
         }
-        
-        // Display available options
         System.out.println("Available Options:");
         System.out.println("1. Vote");
         System.out.println("2. Results");
