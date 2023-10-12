@@ -16,7 +16,6 @@ package INTERNSHIP;
 	                break;
 	            } else if (guess < number) 
 	            {
-	                // If the guess is too low, print a message and continue the loop
 	                System.out.println("Your guess is too low. Try again.");
 	            } else {
 	                System.out.println("Your guess is too high. Try again.");
